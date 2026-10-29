@@ -1,0 +1,159 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hii", "hiii", "hiiii", "hey", "heyy", "heyyy", "good morning"],
+      "responses": ["Hello! Welcome to my AI chatbot. How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "responses": ["Goodbye! Have a nice day."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "thankyou"],
+      "responses": ["You're welcome!"]
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": ["what is ai", "ai", "artificial intelligence", "explain ai"],
+      "responses": ["Artificial Intelligence (AI) enables computers to perform tasks that normally require human intelligence."]
+    },
+    {
+      "tag": "ai_types",
+      "patterns": ["what are the types of ai", "types of ai", "ai types"],
+      "responses": ["AI is commonly classified by capability as narrow AI, general AI, and superintelligent AI. These categories describe different levels of capability."]
+    },
+    {
+      "tag": "ai_applications",
+      "patterns": ["what are the applications of ai", "applications of ai", "uses of ai"],
+      "responses": ["AI is used in healthcare, education, transportation, online shopping, banking, and virtual assistants."]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": ["what is machine learning", "machine learning", "ml", "explain machine learning"],
+      "responses": ["Machine Learning is a branch of AI that enables computers to learn patterns from data."]
+    },
+    {
+      "tag": "ml_types",
+      "patterns": ["what are the types of machine learning", "types of machine learning", "machine learning types"],
+      "responses": ["The main types of machine learning are supervised learning, unsupervised learning, and reinforcement learning."]
+    },
+    {
+      "tag": "supervised_learning",
+      "patterns": ["what is supervised learning", "supervised learning"],
+      "responses": ["Supervised learning trains a model using labeled data containing inputs and their correct outputs."]
+    },
+    {
+      "tag": "unsupervised_learning",
+      "patterns": ["what is unsupervised learning", "unsupervised learning"],
+      "responses": ["Unsupervised learning finds patterns or groups in data without labeled outputs."]
+    },
+    {
+      "tag": "reinforcement_learning",
+      "patterns": ["what is reinforcement learning", "reinforcement learning"],
+      "responses": ["Reinforcement learning trains an agent through rewards and penalties for its actions."]
+    },
+    {
+      "tag": "ml_model",
+      "patterns": ["what is a machine learning model", "machine learning model"],
+      "responses": ["A machine learning model learns patterns from data and uses them to make predictions or decisions."]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": ["what is deep learning", "deep learning", "explain deep learning"],
+      "responses": ["Deep Learning is a type of machine learning that uses neural networks with multiple layers."]
+    },
+    {
+      "tag": "deep_learning_uses",
+      "patterns": ["what is deep learning used for", "uses of deep learning", "applications of deep learning"],
+      "responses": ["Deep learning is used in image recognition, speech recognition, language processing, and image generation."]
+    },
+    {
+      "tag": "neural_network",
+      "patterns": ["what is a neural network", "neural network", "neural networks"],
+      "responses": ["A neural network is a computing model inspired by the way neurons connect in the human brain."]
+    },
+    {
+      "tag": "python",
+      "patterns": ["what is python", "python", "explain python"],
+      "responses": ["Python is a beginner-friendly programming language used in AI, data science, automation, and web development."]
+    },
+    {
+      "tag": "python_libraries",
+      "patterns": ["what are python libraries", "python libraries", "libraries in python"],
+      "responses": ["Popular Python libraries include NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, and PyTorch."]
+    },
+    {
+      "tag": "python_ai",
+      "patterns": ["why is python used in ai", "python used in ai", "why python for ai"],
+      "responses": ["Python is widely used in AI because it is readable and has many libraries for machine learning and data processing."]
+    },
+    {
+      "tag": "pandas",
+      "patterns": ["what is pandas", "pandas"],
+      "responses": ["Pandas is a Python library used to organize, clean, and analyze data in tables called DataFrames."]
+    },
+    {
+      "tag": "numpy",
+      "patterns": ["what is numpy", "numpy"],
+      "responses": ["NumPy is a Python library for numerical calculations and working with arrays."]
+    },
+    {
+      "tag": "tensorflow",
+      "patterns": ["what is tensorflow", "tensorflow"],
+      "responses": ["TensorFlow is a machine learning framework used to build and train AI models."]
+    },
+    {
+      "tag": "scikit_learn",
+      "patterns": ["what is scikit learn", "scikit learn", "scikit-learn", "scikitlearn", "sckit"],
+      "responses": ["Scikit-learn is a Python library that provides tools for machine learning, including classification, regression, and clustering."]
+    },
+    {
+      "tag": "pytorch",
+      "patterns": ["what is pytorch", "pytorch"],
+      "responses": ["PyTorch is a machine learning framework commonly used to build and train deep learning models."]
+    },
+    {
+      "tag": "data_science",
+      "patterns": ["what is data science", "data science"],
+      "responses": ["Data Science uses programming, statistics, and data analysis to discover useful insights from data."]
+    },
+    {
+      "tag": "data_analysis",
+      "patterns": ["what is data analysis", "data analysis"],
+      "responses": ["Data Analysis involves inspecting and interpreting data to identify patterns and useful information."]
+    },
+    {
+      "tag": "data_visualization",
+      "patterns": ["what is data visualization", "data visualization", "visualization"],
+      "responses": ["Data Visualization presents information through charts, graphs, and other visual formats."]
+    },
+    {
+      "tag": "power_bi",
+      "patterns": ["what is power bi", "power bi", "powerbi"],
+      "responses": ["Power BI is a business intelligence tool used to analyze data and create interactive reports and dashboards."]
+    },
+    {
+      "tag": "eda",
+      "patterns": ["what is eda", "eda", "exploratory data analysis"],
+      "responses": ["Exploratory Data Analysis (EDA) helps us understand a dataset using summaries and visualizations before modeling."]
+    },
+    {
+      "tag": "sql",
+      "patterns": ["what is sql", "sql"],
+      "responses": ["SQL is a language used to store, retrieve, and manage data in relational databases."]
+    },
+    {
+      "tag": "dashboard",
+      "patterns": ["what is a dashboard", "dashboard", "dashboards"],
+      "responses": ["A dashboard displays important information and metrics in one place, often using charts and tables."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Sorry, I don't know that yet. Please ask me about AI, Machine Learning, Python, or Data Science."]
+    }
+  ]
+}
